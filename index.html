@@ -111,7 +111,8 @@ body {
 		</style>
 		<link id='-gd-engine-icon' rel='icon' type='image/png' href='index.icon.png' />
 <link rel='apple-touch-icon' href='index.apple-touch-icon.png'/>
-
+Header set Cross-Origin-Embedder-Policy "require-corp"
+Header set Cross-Origin-Opener-Policy "same-origin"
 	</head>
 	<body>
 		<canvas id="canvas">
@@ -137,7 +138,7 @@ body {
 
 		<script src="index.js"></script>
 		<script>
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":96670736,"index.wasm":28972640},"focusCanvas":true,"gdextensionLibs":["libgodot-solana-sdk.javascript.template_release.wasm32.wasm"]};
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":96694800,"index.wasm":28972640},"focusCanvas":true,"gdextensionLibs":["libgodot-solana-sdk.javascript.template_release.wasm32.wasm"]};
 const engine = new Engine(GODOT_CONFIG);
 
 (function () {
